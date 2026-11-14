@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Countdown | Winter Wishes & Co</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">🎄 Winter Wishes & Co ©</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html#budgetSection">My Budget</a>
+            <a href="index.html#giftIdeas">Gift Ideas</a>
+            <a href="index.html#activities">Activities</a>
+            <a href="index.html#savingTips">Saving Tips</a>
+            <a href="countdown.html">Countdown</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="card">
+            <div class="jingle">
+                <h3>Play Jingle</h3>
+                <audio id="jingle" src="Jingle Bells.mp3" preload="auto"></audio>
+                <br>
+                <button type="button" onclick="document.getElementById('jingle').play()">play jingle</button>
+                <button type="button" onclick="document.getElementById('jingle').pause()">pause jingle</button>
+                <button type="button"
+                    onclick="document.getElementById('jingle').pause(); document.getElementById('jingle').currentTime = 0;">reset
+                    jingle</button>
+            </div>
+
+            <div class="countdown-div">
+                <h3>Countdown till Christmas</h3>
+                <div class="countdown">
+                    <p><span id="days"></span> Days</p>
+                    <p><span id="hours"></span> Hours</p>
+                    <p><span id="minutes"></span> Minutes</p>
+                    <p><span id="seconds"></span> Seconds</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="christmas-images">
+            <h2>🎄 Nice christmas pictures ig</h2>
+
+            <div class="countdown-gallery">
+                <img src="c_image1.jpeg" alt="Christmas image 1">
+                <img src="c_image2.jpeg" alt="Christmas image 2">
+                <img src="c_image3.jpeg" alt="Christmas image 3">
+                <img src="c_image4.jpeg" alt="Christmas image 4">
+            </div>
+        </section>
+        <section class="neymar-chat">
+            <h2>Neymar wants to tell you something...</h2>
+            <h4>“Thank God for another year of health, happiness, and good people around me. Merry Christmas, and may
+                2027 bring you everything you dream of! 🌟🙌. Keep enjoying life with the people you love!”</h4>
+
+            <div class="neymar-interview">
+                <img src="neymar-interview.gif">
+            </div>
+
+        </section>
+    </main>
+    <footer class="footer">
+        <h3>🎄 Winter Wishes & Co</h3>
+        <p>Making Christmas special, one gift at a time.</p>
+
+        <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#budgetSection">My Budget</a>
+            <a href="#giftIdeas">Gift Ideas</a>
+            <a href="countdown.html">Countdown</a>
+        </div>
+
+        <p class="copyright">
+            &copy; 2026 Winter Wishes & Co. All rights reserved.
+        </p>
+    </footer>
+    <script src="countdown.js"></script>
+</body>
+
+</html>
