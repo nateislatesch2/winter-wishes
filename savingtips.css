@@ -1,0 +1,113 @@
+/* SAVING TIPS HERO */
+
+.saving-hero {
+    padding: 100px 7%;
+    text-align: center;
+    background: #165b38;
+    color: white;
+}
+
+.saving-hero .section-label {
+    color: #fffaf0;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.saving-hero h1 {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    margin: 15px 0;
+}
+
+.saving-hero p {
+    font-size: 1.1rem;
+}
+
+/* MAIN CONTENT */
+
+.saving-container {
+    padding: 60px 7%;
+    background: #fffaf0;
+}
+
+.saving-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.saving-intro h2 {
+    color: #165b38;
+    font-size: 2rem;
+}
+
+.saving-intro p {
+    line-height: 1.8;
+    color: #555;
+}
+
+/* SAVING CARDS */
+
+.saving-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 25px;
+}
+
+.saving-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.07);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.saving-card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.saving-card span {
+    font-size: 2.2rem;
+}
+
+.saving-card h3 {
+    color: #165b38;
+    margin: 15px 0 10px;
+}
+
+.saving-card p {
+    color: #666;
+    line-height: 1.7;
+}
+
+/* REMINDER */
+
+.saving-reminder {
+    margin-top: 60px;
+    padding: 45px 25px;
+    text-align: center;
+    background: #e9f0e8;
+    border-radius: 18px;
+}
+
+.saving-reminder h2 {
+    color: #165b38;
+}
+
+.saving-reminder p {
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.saving-reminder a {
+    display: inline-block;
+    padding: 13px 25px;
+    background: #165b38;
+    color: white;
+    text-decoration: none;
+    border-radius: 7px;
+}
+
+.saving-reminder a:hover {
+    background: #26352b;
+}
